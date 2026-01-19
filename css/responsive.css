@@ -1,0 +1,242 @@
+/* ========================================
+   VIKKI VVS - Responsive Styles
+   Mobile-First Breakpoints
+   ======================================== */
+
+/* ========================================
+   TABLET (768px+)
+   ======================================== */
+@media (min-width: 768px) {
+    /* Typography */
+    h1 {
+        font-size: var(--text-4xl);
+    }
+
+    /* Header */
+    .header__logo-tagline {
+        display: block;
+    }
+
+    .header__phone-number {
+        display: inline;
+    }
+
+    /* Quick Contact */
+    .quick-contact__inner {
+        flex-direction: row;
+        justify-content: center;
+        gap: var(--space-2xl);
+    }
+
+    /* Services Grid */
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Why Us Grid */
+    .why-us__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Service Area */
+    .service-area__content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .service-area__list {
+        grid-template-columns: 1fr;
+    }
+
+    /* Service Detail */
+    .service-detail__inner {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .service-detail:nth-child(even) .service-detail__inner {
+        direction: rtl;
+    }
+
+    .service-detail:nth-child(even) .service-detail__inner > * {
+        direction: ltr;
+    }
+
+    .service-detail__image img {
+        height: 350px;
+    }
+
+    /* About */
+    .about-intro__inner {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Values */
+    .values__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Areas */
+    .areas-detail__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Contact */
+    .contact-info__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Footer */
+    .footer__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ========================================
+   DESKTOP (1024px+)
+   ======================================== */
+@media (min-width: 1024px) {
+    /* Header */
+    .header__nav {
+        display: block;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: 90vh;
+    }
+
+    .hero__features {
+        gap: var(--space-2xl);
+    }
+
+    /* Services Grid */
+    .services-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Why Us Grid */
+    .why-us__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Pricing Table */
+    .pricing-table__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Values */
+    .values__grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* Areas */
+    .areas-detail__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Footer */
+    .footer__grid {
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
+}
+
+/* ========================================
+   LARGE SCREENS (1200px+)
+   ======================================== */
+@media (min-width: 1200px) {
+    /* Container */
+    .container {
+        padding: 0 var(--space-xl);
+    }
+
+    /* Hero */
+    .hero__content {
+        max-width: 700px;
+    }
+
+    /* Service Detail */
+    .service-detail__image img {
+        height: 400px;
+    }
+
+    /* About */
+    .about-intro__image img {
+        height: 500px;
+    }
+}
+
+/* ========================================
+   PRINT STYLES
+   ======================================== */
+@media print {
+    .header,
+    .mobile-nav,
+    .hero__buttons,
+    .cta,
+    .emergency-cta,
+    .contact-form {
+        display: none;
+    }
+
+    body {
+        font-size: 12pt;
+        line-height: 1.5;
+        color: #000;
+    }
+
+    .section {
+        padding: 20pt 0;
+        page-break-inside: avoid;
+    }
+
+    a {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    .footer {
+        background: none;
+        color: #000;
+        border-top: 1px solid #ccc;
+    }
+}
+
+/* ========================================
+   REDUCED MOTION
+   ======================================== */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* ========================================
+   HIGH CONTRAST
+   ======================================== */
+@media (prefers-contrast: high) {
+    :root {
+        --color-primary: #005f61;
+        --color-secondary: #cc4400;
+        --color-text-light: #333;
+    }
+
+    .btn--primary,
+    .btn--secondary {
+        border: 2px solid currentColor;
+    }
+}
+
+/* ========================================
+   DARK MODE (Future Support)
+   ======================================== */
+@media (prefers-color-scheme: dark) {
+    /* Dark mode styles can be added here if needed */
+}

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- SEO Meta Tags -->
+    <title>VVS-Tjenester Oslo | Bad, Kjøkken, Varme, Akutt | VIKKI Rørlegger</title>
+    <meta name="description" content="Komplette VVS-tjenester i Oslo. Baderom, kjøkken, varmtvannsbereder, lekkasje, akutt rørlegger. Se tjenester og priser.">
+    <meta name="keywords" content="vvs tjenester oslo, bad renovering, kjøkken rørlegger, varmtvannsbereder, akutt rørlegger, rør og avløp">
+    <meta name="author" content="VIKKI">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="VVS-Tjenester | VIKKI Rørlegger Oslo">
+    <meta property="og:description" content="Komplette VVS-tjenester i Oslo. Baderom, kjøkken, varmtvannsbereder, lekkasje, akutt rørlegger.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vikki-vvs.no/tjenester.html">
+    <meta property="og:locale" content="nb_NO">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-text">VIKKI</span>
+                <span class="header__logo-tagline">Rørlegger</span>
+            </a>
+
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li><a href="index.html" class="header__nav-link">Hjem</a></li>
+                    <li><a href="tjenester.html" class="header__nav-link active">Tjenester</a></li>
+                    <li><a href="om-vikki.html" class="header__nav-link">Om VIKKI</a></li>
+                    <li><a href="kontakt.html" class="header__nav-link">Kontakt</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__actions">
+                <a href="tel:+4790000000" class="header__phone">
+                    <svg class="header__phone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                    <span class="header__phone-number">900 00 000</span>
+                </a>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="Meny">
+                    <span class="menu-toggle__bar"></span>
+                    <span class="menu-toggle__bar"></span>
+                    <span class="menu-toggle__bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobileNav">
+        <ul class="mobile-nav__list">
+            <li><a href="index.html" class="mobile-nav__link">Hjem</a></li>
+            <li><a href="tjenester.html" class="mobile-nav__link active">Tjenester</a></li>
+            <li><a href="om-vikki.html" class="mobile-nav__link">Om VIKKI</a></li>
+            <li><a href="kontakt.html" class="mobile-nav__link">Kontakt</a></li>
+        </ul>
+        <a href="tel:+4790000000" class="mobile-nav__phone">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            Ring Meg: 900 00 000
+        </a>
+    </nav>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>VVS-Tjenester</h1>
+                <p>Alt innen rørleggerarbeid i Oslo</p>
+            </div>
+        </section>
+
+        <!-- Service 1: Bad og Våtrom -->
+        <section class="service-detail" id="bad">
+            <div class="container">
+                <div class="service-detail__inner">
+                    <div class="service-detail__content">
+                        <h2>
+                            <span class="service-detail__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/>
+                                    <line x1="10" y1="5" x2="8" y2="7"/>
+                                    <line x1="2" y1="12" x2="22" y2="12"/>
+                                    <line x1="7" y1="19" x2="7" y2="21"/>
+                                    <line x1="17" y1="19" x2="17" y2="21"/>
+                                </svg>
+                            </span>
+                            Bad og Våtrom
+                        </h2>
+                        <p class="service-detail__text">
+                            Drømmer du om et nytt bad? Rørlegging er fundamentet for et vellykket baderom. Jeg sørger for at alt under overflaten er på plass - fra sluk og avløp til moderne rør i rør-systemer.
+                        </p>
+                        <ul class="service-detail__list">
+                            <li>Totalrenovering - all rørlegging til ditt nye bad</li>
+                            <li>Sluk og avløp - riktig plassering og fall</li>
+                            <li>Rør i rør system - moderne, utskiftbart rørsystem</li>
+                            <li>Gulvvarme vannbåren - komfort under føttene</li>
+                            <li>Tilkobling sanitærutstyr - toalett, servant, dusj</li>
+                            <li>Samarbeid med flislegger og snekker</li>
+                        </ul>
+                        <p class="service-detail__highlight">
+                            Jeg koordinerer gjerne med andre håndverkere for et komplett resultat. Drømmebad med kvalitetsrør!
+                        </p>
+                    </div>
+                    <div class="service-detail__image">
+                        <div class="img-placeholder" style="height: 350px;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                <polyline points="21 15 16 10 5 21"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service 2: Kjøkken -->
+        <section class="service-detail" id="kjokken">
+            <div class="container">
+                <div class="service-detail__inner">
+                    <div class="service-detail__content">
+                        <h2>
+                            <span class="service-detail__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/>
+                                    <path d="M7 2v20"/>
+                                    <path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/>
+                                </svg>
+                            </span>
+                            Kjøkken
+                        </h2>
+                        <p class="service-detail__text">
+                            Et godt kjøkken trenger riktig rørlegging. Enten du skal pusse opp eller flytte hele kjøkkenet, hjelper jeg deg med alt fra vannrør til avløp.
+                        </p>
+                        <ul class="service-detail__list">
+                            <li>Nytt rørleggerarbeid til kjøkken</li>
+                            <li>Flytting av vann og avløp</li>
+                            <li>Tilkobling av oppvaskmaskin</li>
+                            <li>Montering av blandebatteri</li>
+                            <li>Installasjon av vannfilter</li>
+                            <li>Avløpsreparasjon</li>
+                        </ul>
+                        <p class="service-detail__highlight">
+                            Planlegger du kjøkkenoppussing? Ta kontakt tidlig for å diskutere rørleggingen. Funksjonelt kjøkken med riktig rørlegging!
+                        </p>
+                    </div>
+                    <div class="service-detail__image">
+                        <div class="img-placeholder" style="height: 350px;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                <polyline points="21 15 16 10 5 21"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service 3: Varme -->
+        <section class="service-detail" id="varme">
+            <div class="container">
+                <div class="service-detail__inner">
+                    <div class="service-detail__content">
+                        <h2>
+                            <span class="service-detail__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/>
+                                </svg>
+                            </span>
+                            Varmtvannsberedere og Varme
+                        </h2>
+                        <p class="service-detail__text">
+                            Varmt vann og behagelig temperatur - essensielt for et godt hjem. Jeg installerer og vedlikeholder varmeanlegg, fra varmtvannsberedere til gulvvarme.
+                        </p>
+                        <ul class="service-detail__list">
+                            <li>Varmtvannsbereder - utskifting og installasjon</li>
+                            <li>Varmepumpe - VVS-tilkobling</li>
+                            <li>Radiator - montering og utskifting</li>
+                            <li>Gulvvarme - vannbåren varme</li>
+                            <li>Service varmeanlegg - årlig sjekk</li>
+                        </ul>
+                        <p class="service-detail__highlight">
+                            En god varmtvannsbereder holder i 15-20 år. Er din gammel? Ta en prat om utskifting. Varmt vann og komfortabel varme!
+                        </p>
+                    </div>
+                    <div class="service-detail__image">
+                        <div class="img-placeholder" style="height: 350px;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                <polyline points="21 15 16 10 5 21"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service 4: Rør og Avløp -->
+        <section class="service-detail" id="ror">
+            <div class="container">
+                <div class="service-detail__inner">
+                    <div class="service-detail__content">
+                        <h2>
+                            <span class="service-detail__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2v6"/>
+                                    <path d="M12 22v-6"/>
+                                    <path d="M4.93 10.93l4.24 4.24"/>
+                                    <path d="M14.83 8.83l4.24 4.24"/>
+                                    <path d="M2 12h6"/>
+                                    <path d="M16 12h6"/>
+                                    <path d="M4.93 13.07l4.24-4.24"/>
+                                    <path d="M14.83 15.17l4.24-4.24"/>
+                                </svg>
+                            </span>
+                            Rør og Avløp
+                        </h2>
+                        <p class="service-detail__text">
+                            Rørsystemet er hjemmets blodårer. Jeg hjelper deg med alt fra tette avløp til komplett rørutskifting. Mange bygårder på Østensjø har originale rør fra 50-60-tallet - det kan være tid for oppgradering!
+                        </p>
+                        <ul class="service-detail__list">
+                            <li>Tette avløp - staking og spyling</li>
+                            <li>Lekkasjesøk - finn problemet raskt</li>
+                            <li>Rørutskifting - bytt gamle rør</li>
+                            <li>Rør i rør system - moderne løsning</li>
+                            <li>Avløpsreparasjon - fiks problemer</li>
+                            <li>Frostsikring - unngå frostspreng</li>
+                        </ul>
+                        <p class="service-detail__highlight">
+                            Moderne rørsystemer som varer - med rør i rør kan du enkelt skifte innerrøret uten å rive vegger!
+                        </p>
+                    </div>
+                    <div class="service-detail__image">
+                        <div class="img-placeholder" style="height: 350px;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                <polyline points="21 15 16 10 5 21"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service 5: Akutt Hjelp -->
+        <section class="service-detail" id="akutt">
+            <div class="container">
+                <div class="service-detail__inner">
+                    <div class="service-detail__content">
+                        <h2>
+                            <span class="service-detail__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                                </svg>
+                            </span>
+                            Akutt Rørlegger
+                        </h2>
+                        <p class="service-detail__text">
+                            Vannlekkasje? Stoppet toalett? Noen problemer kan ikke vente. Jeg stiller opp når det haster - ring direkte for rask hjelp!
+                        </p>
+                        <ul class="service-detail__list">
+                            <li>Vannlekkasje - rask utrykning</li>
+                            <li>Stoppet toalett - løser problemet</li>
+                            <li>Tett avløp - får det til å renne</li>
+                            <li>Rørbrist - nødreparasjon</li>
+                            <li>Frostskader - tining og reparasjon</li>
+                        </ul>
+                        <p class="service-detail__highlight">
+                            Ved akutte situasjoner - ring direkte! Tillegg for kveld/helg, men jeg hjelper deg. Rask hjelp når uhellet er ute!
+                        </p>
+                        <div style="margin-top: var(--space-lg);">
+                            <a href="tel:+4790000000" class="btn btn--primary btn--large">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                                Ring Akutt: 900 00 000
+                            </a>
+                        </div>
+                    </div>
+                    <div class="service-detail__image">
+                        <div class="img-placeholder" style="height: 350px;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                <polyline points="21 15 16 10 5 21"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service 6: Vedlikehold og Installasjon -->
+        <section class="service-detail" id="service">
+            <div class="container">
+                <div class="service-detail__inner">
+                    <div class="service-detail__content">
+                        <h2>
+                            <span class="service-detail__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                                </svg>
+                            </span>
+                            Vedlikehold og Installasjon
+                        </h2>
+                        <p class="service-detail__text">
+                            Godt vedlikehold forebygger problemer. Jeg tilbyr også montering av alt sanitærutstyr - fra toalett til dusj.
+                        </p>
+                        <h4 style="margin-top: var(--space-lg); margin-bottom: var(--space-sm);">Vedlikeholdstjenester:</h4>
+                        <ul class="service-detail__list">
+                            <li>Årlig sjekk av varmtvannsbereder</li>
+                            <li>Kontroll av rør og koblinger</li>
+                            <li>Service av vannkraner</li>
+                            <li>Utskifting av slitedeler</li>
+                        </ul>
+                        <h4 style="margin-top: var(--space-lg); margin-bottom: var(--space-sm);">Monteringstjenester:</h4>
+                        <ul class="service-detail__list">
+                            <li>Toalett - vegghengt eller gulvstående</li>
+                            <li>Servant og baderomsmøbel</li>
+                            <li>Dusj og dusjkabinett</li>
+                            <li>Badekar</li>
+                            <li>Vannmåler</li>
+                        </ul>
+                        <p class="service-detail__highlight">
+                            Trenger du noe montert? Jeg gjør det raskt og riktig. Forebygg problemer med regelmessig vedlikehold!
+                        </p>
+                    </div>
+                    <div class="service-detail__image">
+                        <div class="img-placeholder" style="height: 350px;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                <polyline points="21 15 16 10 5 21"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="section pricing-table">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Prisliste</h2>
+                    <p>Jeg tror på åpenhet om priser. Her er veiledende satser.</p>
+                </div>
+
+                <div class="pricing-table__inner">
+                    <div class="pricing-table__section">
+                        <h3>Timepris</h3>
+                        <div class="pricing-table__grid">
+                            <div class="pricing-table__item">
+                                <span class="pricing-table__item-label">Dagtid (08-16)</span>
+                                <span class="pricing-table__item-price">fra 950 kr</span>
+                            </div>
+                            <div class="pricing-table__item">
+                                <span class="pricing-table__item-label">Ettermiddag (16-21)</span>
+                                <span class="pricing-table__item-price">+50%</span>
+                            </div>
+                            <div class="pricing-table__item">
+                                <span class="pricing-table__item-label">Kveld/natt/helg</span>
+                                <span class="pricing-table__item-price">+100%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pricing-table__section">
+                        <h3>Oppmøte/Utkjøring</h3>
+                        <div class="pricing-table__grid">
+                            <div class="pricing-table__item">
+                                <span class="pricing-table__item-label">Innen Østensjø/nærområde</span>
+                                <span class="pricing-table__item-price">650 kr</span>
+                            </div>
+                            <div class="pricing-table__item">
+                                <span class="pricing-table__item-label">Øvrig Oslo</span>
+                                <span class="pricing-table__item-price">800 kr</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pricing-table__section">
+                        <h3>Andre Kostnader</h3>
+                        <div class="pricing-table__grid">
+                            <div class="pricing-table__item">
+                                <span class="pricing-table__item-label">Materialer</span>
+                                <span class="pricing-table__item-price">Faktureres separat</span>
+                            </div>
+                            <div class="pricing-table__item">
+                                <span class="pricing-table__item-label">Bortkjøring av avfall</span>
+                                <span class="pricing-table__item-price">400 kr</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pricing-table__note">
+                        <p><strong>Merk:</strong> Alle priser er ekskl. mva. Større prosjekter gis alltid skriftlig tilbud. Ta gjerne kontakt for et uforpliktende prisestimat!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section section--primary cta">
+            <div class="container">
+                <div class="cta__content">
+                    <h2>Klar for å starte prosjektet?</h2>
+                    <p>Ta kontakt for en hyggelig prat om ditt VVS-behov. Jeg gir deg gjerne et uforpliktende tilbud!</p>
+                    <div class="cta__buttons">
+                        <a href="tel:+4790000000" class="btn btn--white btn--large">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            Ring: 900 00 000
+                        </a>
+                        <a href="kontakt.html" class="btn btn--outline btn--large" style="border-color: white; color: white;">Be Om Tilbud</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <div class="footer__logo">VIKKI</div>
+                    <p class="footer__tagline">Din lokale rørlegger på Østensjø i Oslo. Personlig service, ærlige priser og kvalitetsarbeid.</p>
+                </div>
+
+                <div class="footer__section">
+                    <h4>Tjenester</h4>
+                    <ul class="footer__links">
+                        <li><a href="tjenester.html#bad" class="footer__link">Bad & Våtrom</a></li>
+                        <li><a href="tjenester.html#kjokken" class="footer__link">Kjøkken</a></li>
+                        <li><a href="tjenester.html#varme" class="footer__link">Varme</a></li>
+                        <li><a href="tjenester.html#ror" class="footer__link">Rør & Avløp</a></li>
+                        <li><a href="tjenester.html#akutt" class="footer__link">Akutt Hjelp</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4>Sider</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Hjem</a></li>
+                        <li><a href="tjenester.html" class="footer__link">Tjenester</a></li>
+                        <li><a href="om-vikki.html" class="footer__link">Om VIKKI</a></li>
+                        <li><a href="kontakt.html" class="footer__link">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4>Kontakt</h4>
+                    <div class="footer__contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        <a href="tel:+4790000000">900 00 000</a>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <a href="mailto:post@vikki-vvs.no">post@vikki-vvs.no</a>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <span>Manglerud, Oslo</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">&copy; 2026 VIKKI. Alle rettigheter reservert.</p>
+                <p class="footer__org">Org.nr: 836 966 112 | Enkeltpersonforetak</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
